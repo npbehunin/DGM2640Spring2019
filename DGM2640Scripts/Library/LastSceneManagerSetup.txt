@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Heirarchy Animation Test.unity
+  isLoaded: 1
+  isActive: 1
