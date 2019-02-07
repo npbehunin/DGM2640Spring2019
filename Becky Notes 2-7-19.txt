@@ -1,0 +1,13 @@
+Setting up controls
+
+Create > Nurbs primatives > circle (used most in industry)
+
+Objects can't be animated if it has a constraint, so we're putting the constraint on the parent group.
+
+renamed the circle nurb we created to lower_arm_control
+Created a group, called it lower_arm_control_group
+
+Selected lower arm joint and the group...
+Modify > Match Transformations > Match all (Attached to lower arm)
+
+(This makes it so the parent group has the transformations, but the nurb's transformations will remain at 0.)
