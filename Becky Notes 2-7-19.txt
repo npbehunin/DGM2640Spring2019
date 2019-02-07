@@ -1,13 +1,18 @@
 Setting up controls
 
-Create > Nurbs primatives > circle (used most in industry)
+Create > Nurbs primatives > circle (Circles are used most in the industry)
 
-Objects can't be animated if it has a constraint, so we're putting the constraint on the parent group.
+Objects can't be animated if it has a constraint, so we're putting the constraint on the parent group. (Constrain > Parent, Scale)
 
-renamed the circle nurb we created to lower_arm_control
-Created a group, called it lower_arm_control_group
+Renamed the circle nurb we created to lower_arm_control
+Created a group, called it lower_arm_control_group and put the lower_arm_control in this group
 
-Selected lower arm joint and the group...
+Selected lower arm joint of our lamp and the new group...
 Modify > Match Transformations > Match all (Attached to lower arm)
 
 (This makes it so the parent group has the transformations, but the nurb's transformations will remain at 0.)
+
+Duplicated this group and matched the transformations to the other joints.
+Parented these new groups together and put it under one "control" group. 
+
+"Assignment:" Try to get everything parented and working correctly.
