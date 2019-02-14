@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Heirarchy Animation Test.unity
+- path: Assets/Scenes/Correct Character Controller Setup.unity
   isLoaded: 1
   isActive: 1
