@@ -1,0 +1,43 @@
+Becky notes
+
+Storyboarding: Talked more about composition in storyboards. Used Indiana Jones as an example. Start our storyboards for our 1 minute story.
+
+Modeling: Reviewed a double jump mechanic for people who needed it. Briefly covered character controllers. (I don't have the script for it unfortunately)
+
+Game design: Reviewed everything we're covering by the end of the semester. 
+
+By Mar.13 we should develop player mechanics, and the mechanics interacting with the level. Also create a "Hazard slice" of our level that features a hazard our players can run into.
+
+Mar 20 Lighting Demo. Work on character design and character model texturing.
+
+Mar 27 Animation Rigging implementation
+
+Apr 3 Environment focus
+
+Apr 10 VFX demo
+
+[Modeling should be done around Apr 17.]
+
+[Art should be done around Apr 24.]
+
+[Scripting should be done around May 1.]
+
+Rigging: Reviewed IK rigging again for anyone who was confused.
+
+IK System:
+- Create joints
+- Orient Joints (Values in Z (for elbow, or middle joint), Orientaton in X, Y. X is down.)
+- IK handle
+- Pole Vector (The direction the "elbow" is pointing)
+- Controls
+
+1. Create 3 joints, shoulder, elbow, wrist
+2. Orient: (Shoulder > X, Z, X-) Make sure orient children of selected joints is checked
+3. Create IK handle and select shoulder and wrist
+4. Create 3 nurb controls in groups (shoulder, arm, and wrist)
+5. Shoulder to shoulder joint, wrist to wrist joint
+6. Arm to elbow. Zero it out.
+7. Move away from the elbow and freeze any transformations.
+8. Select the arm nurb and ik handle, and do a "pole vector" contrain. If done right nothing will move.
+9. Constrain shoulder to shoulder joint
+10. 
