@@ -8,7 +8,7 @@
                 "Common Parameters": {
                     "ao_intensity": 0.75,
                     "emissive_intensity": 1,
-                    "horizonFade": 1.2999999523162842,
+                    "horizonFade": 1.3700000047683716,
                     "nbSamples": 16
                 },
                 "Parallax Occlusion Mapping": {
